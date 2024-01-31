@@ -1247,10 +1247,10 @@
   dependencies:
     ramda "^0.26.0"
 
-"@scarf/scarf@^1.0.0":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@scarf/scarf/-/scarf-1.0.5.tgz#accee0bce88a9047672f7c8faf3cada59c996b81"
-  integrity sha512-9WKaGVpQH905Aqkk+BczFEeLQxS07rl04afFRPUG9IcSlOwmo5EVVuuNu0d4M9LMYucObvK0LoAe+5HfMW2QhQ==
+"@scarf/scarf@^1.0.6":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@scarf/scarf/-/scarf-1.3.0.tgz#f8c75560d0dace4452dee1e31995e6396e61f3ee"
+  integrity sha512-lHKK8M5CTcpFj2hZDB3wIjb0KAbEOgDmiJGDv1WBRfQgRm/a8/XMEkG/N1iM01xgbUDsPQwi42D+dFo1XPAKew==
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
@@ -8219,13 +8219,13 @@ react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.0.tgz#0f37c3613c34fe6b37cd7f763a0d6293ab15c527"
   integrity sha512-GFMtL0vHkiBv9HluwNZTggSn/sCyEt9n02aM0dSAjGGyqyNlAyftYm4phPxdvCigG15JreC5biwxCgTAJZ7yAA==
 
-react-query@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-1.3.3.tgz#41d349e4ab951251dcbaacacf1fd2d9f7bbeed1d"
-  integrity sha512-hamNWxLHycMv0hYIlUK/GSQUkXiQML4sUjeqxYJ3W4FO6TLXxqTgtj/r0W7CYQ0VYGvmU3CmbaP6gESxRdkbuw==
+react-query@^1.5.10:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-1.5.10.tgz#9b23af061e8171e95503e1932cc07d0cebe806eb"
+  integrity sha512-Kjgii5rK1g9kpLCUGBeGIqFG0IoAMe/oRKzpIfNQUyegJ/Lh5o9lmbmpTPMBWbP3gZDFfAC3081llqxg7QiqCg==
   dependencies:
-    "@scarf/scarf" "^1.0.0"
-    ts-toolbelt "^6.4.2"
+    "@scarf/scarf" "^1.0.6"
+    ts-toolbelt "^6.9.4"
 
 react-scripts@3.0.1:
   version "3.0.1"
@@ -8287,14 +8287,12 @@ react-scripts@3.0.1:
   optionalDependencies:
     fsevents "2.0.6"
 
-react-virtual@^2.0.0:
-  version "2.1.8"
-  resolved "https://registry.yarnpkg.com/react-virtual/-/react-virtual-2.1.8.tgz#e65e467c6327e1e4e6c130a56e24cb2c3f8d9c29"
-  integrity sha512-vvc07dM3Wxmx/gTqxCY4cKV66lIQnhGAdeVRt9W83/PYcXuuvRMtg30z9sL1AAsfbQMk6hhkO/Dhx/0vJuXE8w==
+react-virtual@^2.1.8:
+  version "2.10.4"
+  resolved "https://registry.yarnpkg.com/react-virtual/-/react-virtual-2.10.4.tgz#08712f0acd79d7d6f7c4726f05651a13b24d8704"
+  integrity sha512-Ir6+oPQZTVHfa6+JL9M7cvMILstFZH/H3jqeYeKI4MSUX+rIruVwFC6nGVXw9wqAw8L0Kg2KvfXxI85OvYQdpQ==
   dependencies:
     "@reach/observe-rect" "^1.1.0"
-    "@scarf/scarf" "^1.0.0"
-    ts-toolbelt "^6.4.2"
 
 react@^16.8.6:
   version "16.13.0"
@@ -9633,10 +9631,10 @@ ts-pnp@^1.0.0:
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.1.6.tgz#389a24396d425a0d3162e96d2b4638900fdc289a"
   integrity sha512-CrG5GqAAzMT7144Cl+UIFP7mz/iIhiy+xQ6GGcnjTezhALT02uPMRw7tgDSESgB5MsfKt55+GPWw4ir1kVtMIQ==
 
-ts-toolbelt@^6.4.2:
-  version "6.7.4"
-  resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-6.7.4.tgz#30e6999578a82ed4636563cb525bb3664a255760"
-  integrity sha512-cP8q7BnIyuevMyBpq+TVKf3NvSS70S+BLdhzHVeV/5WNPMoUxN5YWMKgUd54qAwWgk6n2USHi/2XFIxZJa+30g==
+ts-toolbelt@^6.9.4:
+  version "6.15.5"
+  resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-6.15.5.tgz#cb3b43ed725cb63644782c64fbcad7d8f28c0a83"
+  integrity sha512-FZIXf1ksVyLcfr7M317jbB67XFJhOO1YqdTcuGaq9q5jLUoTikukZ+98TPjKiP2jC5CgmYdWWYs0s2nLSU0/1A==
 
 tslib@^1.8.1, tslib@^1.9.0:
   version "1.11.0"
